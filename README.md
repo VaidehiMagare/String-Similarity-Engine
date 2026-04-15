@@ -1,39 +1,27 @@
-# String-Similarity-Engine
-A hybrid string similarity system integrating Levenshtein, Jaccard, cosine similarity, and transformer-based semantic embeddings with an interactive visualization UI.
+# String Similarity Engine
 
----
+A comprehensive string similarity comparison tool with multiple metrics and an interactive Streamlit interface.
 
-## 🚀 Features
+## Features
 
-- 🔤 **Levenshtein Distance** — character-level edits  
-- 📊 **Jaccard Similarity** — word overlap  
-- 📈 **Cosine Similarity** — vector-based comparison  
-- 🧠 **Semantic Similarity** — transformer embeddings  
-- 📉 **Radar Charts & Visualizations**  
-- ⚡ **Real-time comparison UI using Streamlit**
+- **Multiple Similarity Metrics**:
+  - Levenshtein Distance (Character-level)
+  - Jaccard Index (Set-based)
+  - Cosine Similarity (Vector-based)
+  - Overlap Coefficient
+  - Longest Common Subsequence
+  - Hybrid Score (Weighted combination)
 
----
+- **Interactive Web Interface**:
+  - Compare 2 or more strings simultaneously
+  - Real-time similarity scoring
+  - Visual score gauges and heatmaps
+  - Detailed explanations of results
+  - Customizable preprocessing options
 
-## 🧩 Tech Stack
+## Installation
 
-- Python  
-- Streamlit  
-- Sentence Transformers  
-- Scikit-learn  
-- Plotly  
-
----
-
-## 🖥️ Demo
-
-*(Add screenshots here if possible — highly recommended)*
-
----
-
-## ⚙️ Installation & Run
-
+1. Clone the repository:
 ```bash
-git clone https://github.com/VaidehiMagare/string-similarity-engine.git
-cd string-similarity-engine
-pip install -r requirements.txt
-streamlit run app.py
+git clone <repository-url>
+cd string_similarity_engine
