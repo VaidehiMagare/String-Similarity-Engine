@@ -23,5 +23,5 @@ A comprehensive string similarity comparison tool with multiple metrics and an i
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/VaidehiMagare/String-Similarity-Engine.git)>
 cd string_similarity_engine
